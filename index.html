@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/css">
+  </head>
+  <body>
+                <!-- Navbar -->
+    <div class="navbar-container">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-light" href="#">About</a>
+                    <a class="nav-link active text-light" href="#">Listings</a>
+                    <a class="nav-link active text-light" aria-disabled="true">Property</a>
+                    <a class="nav-link active text-light" aria-disabled="true">Search</a>
+                    <a class="nav-link active text-light" aria-disabled="true">Resources</a>
+                    <a class="nav-link active text-light" aria-disabled="true">Blog</a>
+                    <a class="nav-link active text-light" aria-disabled="true">Videos</a>
+                    <a class="nav-link active text-light" aria-disabled="true">Press</a>
+                </div>
+            </div>
+        </nav>
+        <img src="../img/0.jpg" alt="" width="100%">
+    </div> 
+
+                <!--Text Before Search Bar-->
+    <div class="text">
+        <h1>HOMES FOR SALE <br>
+            IN WALNUT GROVE</h1>
+    </div>
+                <!--Search Bar-->
+
+    <div class="col-md-9 col-md-push-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <form action="#" method="get" id="searchForm" class="input-group">
+                        
+                        <div class="input-group-btn search-panel">
+                            <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <option value="all">All</option>
+                                <option value="username">Price</option>
+                                <option value="email">Property</option>
+                            </select>
+                        </div>
+                        <input type="text" class="form-control" name="x" placeholder="Search By...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </form><!-- end form -->     
+                </div><!-- end col-xs-8 -->       
+            </div><!-- end row -->  
+        </div><!-- end container -->    
+    </div><!-- end col-md-9 -->    
+
+                <!--Google map-->
+    <div>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+                <!--Cards-->
+        <div class="Cards-Container bg-dark">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-1">
+                <div class="card">
+                <img src="..." class="card-img-top bg-dark" alt="...">
+                    <div class="card-body bg-dark text-light">
+                        <h5 class="card-title">TY CORSIE</h5>
+                        <p class="card-text">778-772-5754 <br>
+                            ty@tycorsie.com</p>
+                    </div>
+                </div>
+            </div>
+        <div class="col-2">
+            <div class="card">
+                <img src="./img/1.jpg" class="card-img-top bg-dark" alt="...">
+                <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">TY CORSIE GROUP</h5>
+                    <p class="card-text">REAL ESTATE PROFISIONALS</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./img/2.jpg" class="card-img-top bg-dark" alt="...">
+                <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">GET SOCIAL</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#https://www.facebook.com/tycorsiegroup?ref=embed_page" class="btn btn-primary">Facebook</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+           
+                <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
+
+                <!--Footer-->
+    <footer>
+        <div>
+    <div class="jumbotron">
+	  <p class="lead">Royal LePage - Wolstencroft — 135 - 19664 64 Avenue Langley, British Columbia V2Y3J6 — 604-530-0231<br>
+© 2023 Ty Corsie Group</p>
+<p>Home / Homes for sale in Walnut Grove</p>
+	  <hr class="my-4">
+	  <p>The data relating to real estate on this web site comes in part from the MLS® Reciprocity program of the Real Estate Board of Greater Vancouver or the Fraser Valley Real Estate Board. Real estate listings held by participating real estate firms are marked with the MLS® Reciprocity logo and detailed information about the listing includes the name of the listing agent. This representation is based in whole or part on data generated by the Real Estate Board of Greater Vancouver or the Fraser Valley Real Estate Board which assumes no responsibility for its accuracy. The materials contained on this page may not be reproduced without the express written consent of the Real Estate Board of Greater Vancouver or the Fraser Valley Real Estate Board. Listing data last updated 2023-06-28T06:18:54Z.</p>
+	</div>
+    </footer>   
+</html>
