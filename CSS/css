@@ -14,11 +14,25 @@
   position:absolute;
 }
 
-/* New Adds*/
+/* Will Delete It*/
 .col-3 {
     background-image:url(./img/1.jpg);
 }
 
 .text {
     text-align: center;
+}
+
+/*Contact Me*/
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
