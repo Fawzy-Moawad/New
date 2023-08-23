@@ -1,5 +1,7 @@
-/*Home*/
-
+/*---------------------------------------------
+                    Home
+---------------------------------------------*/
+/*MAP SECTION*/
 .map-container{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -14,7 +16,7 @@
   position:absolute;
 }
 
-/* Will Delete It*/
+/* Will DELETE THIS*/
 .col-3 {
     background-image:url(./img/1.jpg);
 }
@@ -23,16 +25,7 @@
     text-align: center;
 }
 
-/*Contact Me*/
-
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/*---------------------------------------------
+                    Contact Me
+---------------------------------------------*/
+/*IMAGE ANDFORM SECTION*/
