@@ -30,6 +30,10 @@
     text-align: center;
 }
 
+.custom-dropdown-item {
+  background-color: #FAF1E4 !important; /* Use !important to ensure the custom color is applied */
+}
+
 /*---------------------------------------------
                     Contact Me
 ---------------------------------------------*/
@@ -40,4 +44,6 @@
 ----------------------------------------------*/
 /*
 MEET DEVIN 
-*/
+*
+/
+
