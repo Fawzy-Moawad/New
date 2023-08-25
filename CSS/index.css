@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #720500;
 }
 
 /* Style for the main content */
@@ -26,8 +27,8 @@ main {
 /* Style for the hero section */
 .hero {
     text-align: center;
-    padding: 0; /* Remove padding */
-    margin-bottom: 0; /* Remove margin */
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .hero h1 {
@@ -52,10 +53,14 @@ main {
 /* Style for the image container */
 .image-container {
     flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    align-items: center; /* Vertically center content */
+    margin-left: 20px; /* Add margin to the left side */
+    margin-right: 20px;
 }
 
 .image-container img {
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -63,6 +68,6 @@ main {
 /* Style for the video section */
 .video-section {
     text-align: center;
-    padding: 0; /* Remove padding */
-    margin-top: 0; /* Remove margin */
+    padding: 0;
+    margin-top: 0;
 }
