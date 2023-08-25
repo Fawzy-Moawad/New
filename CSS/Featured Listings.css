@@ -56,3 +56,16 @@ body {
 .bg-image:hover .hover-text {
   opacity: 1;
 }
+
+
+/* Add your custom CSS here */
+
+/* Remove outline from buttons and provide a smooth transition */
+.btn-floating {
+  outline: none !important;
+  transition: outline 0.4s;
+}
+
+.btn-floating:hover {
+  outline: none !important;
+}
